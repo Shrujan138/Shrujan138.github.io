@@ -1,162 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolt Defect Detection using ML</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f6f8;
-            color: #333;
-        }
-        header {
-            background: #0d47a1;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 30px;
-            max-width: 1000px;
-            margin: auto;
-            background: white;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #0d47a1;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #0d47a1;
-            color: white;
-            margin-top: 20px;
-        }
-        .highlight {
-            color: #1565c0;
-            font-weight: bold;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolt Defect Detection CPS</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1100px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #2c5364;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.code-box {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c5364;
+    color: white;
+    margin-top: 20px;
+}
+.badge {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>Development of CPS in Real-Time Bolt Defect Detection</h1>
-    <p>Machine Learning Based Automated Quality Control System</p>
+    <h1>Development of a Cyber Physical System in Real Time Bolt Defect Detection</h1>
+    <p><b>Machine Learning Based Automated Quality Control</b></p>
+    <span class="badge">Production Ready</span>
 </header>
 
 <section>
-    <h2>📌 Project Overview</h2>
-    <p>
-        This project focuses on developing a <span class="highlight">Cyber-Physical System (CPS)</span> 
-        for real-time bolt defect detection using machine learning and computer vision.
-        The system automates quality inspection in industrial environments by identifying defects such as 
-        cracks, rust, deformation, and missing bolts.
-    </p>
+<h2>🎯 Overview</h2>
+<p>
+An AI-powered cyber-physical system for real-time bolt quality inspection using YOLO object detection, Flask web interface, and Arduino hardware integration for automated quality control in manufacturing environments.
+</p>
 </section>
 
 <section>
-    <h2>🎯 Objectives</h2>
-    <ul>
-        <li>Automate industrial quality inspection using ML</li>
-        <li>Detect bolt defects in real-time</li>
-        <li>Reduce human error and inspection time</li>
-        <li>Improve manufacturing efficiency</li>
-    </ul>
+<h2>✨ Features</h2>
+
+<h3>Cyber-Physical Integration</h3>
+<ul>
+<li>Real-time Detection with live camera streaming</li>
+<li>Arduino-based physical alerts</li>
+<li>Automated quality control with zero human intervention</li>
+<li>Closed-loop system with instant response</li>
+</ul>
+
+<h3>Machine Learning & AI</h3>
+<ul>
+<li>YOLO v8 object detection</li>
+<li>AI-based classification (Good/Defective)</li>
+<li>Confidence scoring</li>
+<li>Adaptive detection under varying conditions</li>
+</ul>
+
+<h3>Real-Time Processing</h3>
+<ul>
+<li>Live streaming with instant detection</li>
+<li>Sub-second response time</li>
+<li>Fixed detection zone</li>
+<li>Duplicate prevention logic</li>
+</ul>
+
+<h3>Web-Based Monitoring</h3>
+<ul>
+<li>Flask dashboard</li>
+<li>Real-time statistics</li>
+<li>Color-coded visual feedback</li>
+<li>Remote access</li>
+</ul>
 </section>
 
 <section>
-    <h2>⚙️ System Architecture</h2>
-    <ul>
-        <li>Image Acquisition using Camera</li>
-        <li>Preprocessing of Captured Images</li>
-        <li>Object Detection using YOLOv8 Model</li>
-        <li>Defect Classification</li>
-        <li>Output Display / Decision System</li>
-    </ul>
+<h2>🏭 System Architecture</h2>
+<pre class="code-box">
+CYBER LAYER
+Camera → YOLO Model → Flask Interface → Decision Logic
+
+PHYSICAL LAYER
+Arduino → Actuators → Physical Response (LED, Buzzer, Sorter)
+</pre>
 </section>
 
 <section>
-    <h2>🧠 Technologies Used</h2>
-    <ul>
-        <li>Machine Learning & Deep Learning</li>
-        <li>Computer Vision (OpenCV)</li>
-        <li>YOLOv8 Object Detection</li>
-        <li>Python Programming</li>
-        <li>Embedded Systems (CPS Integration)</li>
-    </ul>
+<h2>📋 Requirements</h2>
+<ul>
+<li>Python 3.8+</li>
+<li>OpenCV</li>
+<li>PyTorch</li>
+<li>Flask</li>
+<li>Ultralytics YOLO</li>
+<li>Arduino (optional)</li>
+</ul>
 </section>
 
 <section>
-    <h2>🔍 Types of Defects Detected</h2>
-    <ul>
-        <li>Cracks</li>
-        <li>Rust</li>
-        <li>Deformation</li>
-        <li>Missing Bolts</li>
-    </ul>
+<h2>🚀 Installation</h2>
+
+<h3>Standard Setup</h3>
+<div class="code-box">
+git clone &lt;repository-url&gt;<br>
+cd boltFaultDet<br>
+pip install -r requirements.txt
+</div>
+
+<h3>Run the System</h3>
+<div class="code-box">
+python app.py
+</div>
+
+<p>Access: <b>http://localhost:5000</b></p>
 </section>
 
 <section>
-    <h2>📊 Features</h2>
-    <ul>
-        <li>Real-time detection</li>
-        <li>High accuracy using deep learning</li>
-        <li>Automated decision making</li>
-        <li>Scalable for industrial environments</li>
-    </ul>
+<h2>🎮 Usage</h2>
+<ul>
+<li>Live camera streaming</li>
+<li>Single frame capture</li>
+<li>Image upload</li>
+<li>Arduino integration</li>
+<li>Real-time monitoring dashboard</li>
+</ul>
 </section>
 
 <section>
-    <h2>🚀 Applications</h2>
-    <ul>
-        <li>Manufacturing industries</li>
-        <li>Automotive assembly lines</li>
-        <li>Quality control systems</li>
-        <li>Smart factories (Industry 4.0)</li>
-    </ul>
+<h2>⚙️ Configuration</h2>
+
+<h3>Detection Zone</h3>
+<div class="code-box">
+zone_width = 450
+zone_height = 400
+</div>
+
+<h3>Model Parameters</h3>
+<div class="code-box">
+conf = 0.4
+iou = 0.5
+imgsz = 320
+</div>
 </section>
 
 <section>
-    <h2>⚠️ Challenges</h2>
-    <ul>
-        <li>Lighting variations in industrial environments</li>
-        <li>Different bolt shapes and sizes</li>
-        <li>Dataset limitations</li>
-        <li>Real-time processing constraints</li>
-    </ul>
+<h2>📊 Detection Logic</h2>
+<ul>
+<li>Good Bolt → Green</li>
+<li>Defective Bolt → Red + Arduino alert</li>
+<li>Single count per bolt</li>
+<li>Real-time continuous inspection</li>
+</ul>
 </section>
 
 <section>
-    <h2>💡 Future Improvements</h2>
-    <ul>
-        <li>Expand dataset for better accuracy</li>
-        <li>Edge deployment using embedded devices</li>
-        <li>Integration with IoT systems</li>
-        <li>Advanced defect classification</li>
-    </ul>
+<h2>🏭 Industrial Applications</h2>
+<ul>
+<li>Automotive manufacturing</li>
+<li>Aerospace fastener inspection</li>
+<li>Construction materials</li>
+<li>Electronics assembly</li>
+</ul>
 </section>
 
 <section>
-    <h2>📂 GitHub Repository</h2>
-    <p>
-        View full project here:<br>
-        <a href="https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control" target="_blank">
-            Click to Open Repository
-        </a>
-    </p>
+<h2>🔐 Security & Safety</h2>
+<ul>
+<li>Local network deployment recommended</li>
+<li>Use authentication in production</li>
+<li>Follow electrical safety standards</li>
+<li>Implement emergency stop mechanisms</li>
+</ul>
+</section>
+
+<section>
+<h2>🎓 Research Significance</h2>
+<ul>
+<li>Cyber-Physical Systems integration</li>
+<li>Industry 4.0 implementation</li>
+<li>Real-time AI-based automation</li>
+<li>Edge computing applications</li>
+</ul>
+</section>
+
+<section>
+<h2>👨‍💻 Author</h2>
+<p><b>Shrujan M</b></p>
+<p>Email: mshrujan.28@gmail.com</p>
+<p>
+LinkedIn: 
+<a href="https://www.linkedin.com/in/shrujan-m-804842361/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+View Profile
+</a>
+</p>
 </section>
 
 <footer>
-    <p>© 2026 | Developed by Shrujan M</p>
+<p>Version 1.0.0 | March 2026</p>
+<p>Cyber-Physical Systems | Industrial Automation | Machine Learning</p>
 </footer>
 
 </body>
