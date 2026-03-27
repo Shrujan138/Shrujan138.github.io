@@ -19,7 +19,8 @@ The system integrates:
 It enables **high-speed, accurate, and cost-effective inspection** of bolts without human intervention.
 
 👉 **Project Repository:**  
-https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control
+Click here to view the source code:  
+[Click here](https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control)
 
 ---
 
@@ -101,7 +102,8 @@ A **Cyber-Physical System** that:
 - Optimized for edge deployment  
 
 👉 More details:  
-https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control
+Click here to view the source code:  
+[Click here](https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control)
 
 ---
 
@@ -131,7 +133,8 @@ YOLOv8 provided the best balance of speed, accuracy, and edge performance.
 ## 🔗 Source Code
 
 Access full implementation:  
-https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control/tree/main/Development_of_Cyber_Physical_System_in_Real_Time_Bolt_Defect_Detection_using_Machine_Learning-main/boltFaultDet%20-%20codes
+Click here to view the source code:  
+[Click here](https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control/tree/main/Development_of_Cyber_Physical_System_in_Real_Time_Bolt_Defect_Detection_using_Machine_Learning-main/boltFaultDet%20-%20codes)
 
 ---
 
@@ -200,4 +203,5 @@ Cyber Physical System, YOLOv8, Bolt Defect Detection, Edge AI, Raspberry Pi, Com
 
 If you found this useful, check out the project:
 
-https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control
+Click here to view the source code:  
+[Click here](https://github.com/Shrujan138/Development-of-CPS-in-Real-Time-Bolt-Defect-Detection-using-ML-based-Automated-Quality-Control)
