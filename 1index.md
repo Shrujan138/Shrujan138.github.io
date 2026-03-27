@@ -1,6 +1,4 @@
 
----
-layout: default
 title: ESP32-CAM Smart Door Lock System
 ---
 
