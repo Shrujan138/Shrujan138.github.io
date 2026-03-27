@@ -100,12 +100,6 @@ Click here to view the source code:
 - LiquidCrystal_I2C  
 - ESP32 Camera
 
-  ## 📶 WiFi Configuration
-
-```cpp
-const char* ssid = "YOUR_WIFI_NAME";
-const char* password = "YOUR_WIFI_PASSWORD";
-
 📧 Email Configuration
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
@@ -149,5 +143,8 @@ Shrujan M
 
 🔗 LinkedIn Profile
 
----
+
+
+
+
 
