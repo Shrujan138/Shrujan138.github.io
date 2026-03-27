@@ -1,0 +1,35 @@
+---
+layout: default
+title: ESP32-CAM Smart Door Lock System
+---
+
+# 🔐 ESP32-CAM Smart Door Lock System  
+### *Face Recognition + Email Notification + IoT Security*
+
+---
+
+## 📌 Overview
+
+This project presents an **AI-powered smart access control system** using the ESP32-CAM module.  
+It utilizes **face recognition technology** to automatically unlock doors for authorized users.
+
+For unknown individuals, the system enhances security by sending an **email alert with captured images**, enabling remote monitoring and decision-making.
+
+🔗 **Project Repository:**  
+👉 https://github.com/Shrujan138/ESP32-CAM-Face-Recognition-Smart-Door-Lock-System-With-Email-Notification  
+
+---
+
+## ✨ Key Features
+
+- 🔍 Face Detection & Recognition  
+- 🔓 Automatic Door Unlock for Authorized Users  
+- 📧 Email Alerts for Unknown Visitors  
+- 🌐 Remote Access Monitoring  
+- 🚪 Door Status Detection (MC38 Sensor)  
+- 🖥 LCD Display Output  
+- 📡 Live Video Streaming via Web Interface  
+
+---
+
+## 🏗 System Architecture
